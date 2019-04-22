@@ -4,6 +4,7 @@ import './Card.css';
 const CardContent = () => {
     return (
 
+        <div className = "card-wrapper">
         <div className = "card-content-title">
         
         <h2>
@@ -16,6 +17,7 @@ const CardContent = () => {
         <p>reactjs.org</p>
         </div>
 
+        </div>
 
         </div>
 
