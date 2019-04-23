@@ -19,33 +19,56 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 
 const App = () => {
   return (
-    // <div className="action-button-row">
-    //   <button className="action-button"> clear </button>
-    //   <button className="operator-button"> / </button>
-    // </div>
 
-    <div className="button-rows-section">
-      <div className="buttons-row">
-        <button> 7 </button>
-        <button> 8 </button>
-        <button> 9 </button>
-        <button className="operator-button"> x </button>
+    <div className="calculator-container">
+
+      <div className="top-section">
+        <div className="calculator-display">
+          <button className="result-display"> 0 </button>
+        </div>
       </div>
 
-      <div className="buttons-row">
-        <button> 4 </button>
-        <button> 5 </button>
-        <button> 6 </button>
-        <button className="operator-button"> - </button>
+
+      <div className="button-rows-section">
+        <div className="buttons-row">
+          <button className="long-button"> clear </button>
+          <button className="operator-button"> / </button>
+        </div>
       </div>
 
-      <div className="buttons-row">
-        <button> 1 </button>
-        <button> 2 </button>
-        <button> 3 </button>
-        <button className="operator-button"> + </button>
+
+      <div className="button-rows-section">
+        <div className="buttons-row">
+          <button> 7 </button>
+          <button> 8 </button>
+          <button> 9 </button>
+          <button className="operator-button"> x </button>
+        </div>
+
+        <div className="buttons-row">
+          <button> 4 </button>
+          <button> 5 </button>
+          <button> 6 </button>
+          <button className="operator-button"> - </button>
+        </div>
+
+        <div className="buttons-row">
+          <button> 1 </button>
+          <button> 2 </button>
+          <button> 3 </button>
+          <button className="operator-button"> + </button>
+        </div>
       </div>
+
+      <div className="button-rows-section">
+        <div className="buttons-row">
+          <button className="long-button"> 0 </button>
+          <button className="operator-button"> = </button>
+        </div>
+      </div>
+
     </div>
+
 
   );
 };
