@@ -1,0 +1,24 @@
+button {
+    border: solid 1px gray;
+    height: 95px;
+    width: 100px;
+    font-size: 45px;
+    font-weight: 550;
+    background: white;
+}
+
+.operator-button {
+    font-weight: 300;
+    background: #A0041E;
+    color: white;
+}
+
+.long-button {
+    width: 300px;
+
+}
+
+.clear-button {
+    width: 300px;
+    font-weight: 300;
+}
