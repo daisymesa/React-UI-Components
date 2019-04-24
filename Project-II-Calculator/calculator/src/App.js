@@ -19,7 +19,7 @@ const App = () => {
 
       <div className="button-rows-section">
         <div className="buttons-row">
-          <button className="long-button"> clear </button>
+          <button className="clear-button"> clear </button>
           <button className="operator-button"> / </button>
         </div>
       </div>
@@ -47,6 +47,7 @@ const App = () => {
           <button className="operator-button"> + </button>
         </div>
       </div>
+
 
       <div className="button-rows-section">
         <div className="buttons-row">
