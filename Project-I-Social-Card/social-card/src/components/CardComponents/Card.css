@@ -1,1 +1,27 @@
 /* All styles for your Card Components live here */
+
+.card-banner img {
+    width: 500px;
+    border-radius: .25rem;
+}
+
+.card-wrapper {
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: .25rem;
+    padding: 0 10px 10px 10px;
+}
+
+.card-wrapper h2 {
+    color: black;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.card-wrapper p {
+    font-size: .85rem;
+}
+
+.card-content-source p {
+    color: gray;
+}

@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+
+/* .header-container {
+    border: solid blue;
+} */
+
+.thumbnail img {
+    height: 50px;
+}
+
+.header-title {
+    width: 500px;
+    display: flex;
+    align-items: baseline;
+}
+
+h1 {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: .75rem;
+    font-weight: 100;
+    color: gray;
+}
+
+.header-content {
+    width: 500px;
+    font-size: .9rem;
+}

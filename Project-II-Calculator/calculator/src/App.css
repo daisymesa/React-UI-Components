@@ -1,0 +1,15 @@
+.calculator-container {
+    width: 400px;
+    height: 650px;
+}
+
+.result-display {
+    width: 100%;
+    text-align: right;
+    font-size: 70px;
+    font-weight: 200;
+    background: black;
+    color: white;
+    height: 120px;
+    padding-right: 10px;
+}
